@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 app = Flask('')
 
 @app.route('/')
-def home()
+def home():
     return "😃Бот-предложка работает!"
 
 def run_flask():
