@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Команда /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    welcome_text = "👋 Привет! Отправляй посты для публикации в канале "У нас так"! 📝"
+    welcome_text = "👋 Привет! Отправляй посты для публикации в канале У нас так! 📝"
     await update.message.reply_text(welcome_text)
 
 # Обработка предложений
