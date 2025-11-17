@@ -1,7 +1,22 @@
 import logging
+from flask import Flask
+from threading import Thread
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
+
+app = Flask(")
+
+@app.route('/')
+def home()
+    return "😃Бот-предложка работает!"
+
+def run_flask():
+    app.run(host='0.0.0.0',port=8080)
+
+ef keep_alive():
+t = Thread(target=run_flask)
+t.start()
 
 # === НАСТРОЙКИ БОТА ===
 BOT_TOKEN = "8591173518:AAGq6kP0fzGqSPU_Ucd3lQDvnZ0QFu5Pl_A"
