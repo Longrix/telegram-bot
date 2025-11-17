@@ -81,5 +81,5 @@ def main():
     print("✅ Бот запущен на Render!")
     application.run_polling()
 
-if name == 'main':
+if _name_ == '_main_':
     main()
