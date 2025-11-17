@@ -15,8 +15,8 @@ def run_flask():
     app.run(host='0.0.0.0',port=8080)
 
 def keep_alive():
-t = Thread(target=run_flask)
-t.start()
+    t = Thread(target=run_flask)
+    t.start()
 
 # === НАСТРОЙКИ БОТА ===
 BOT_TOKEN = "8591173518:AAGq6kP0fzGqSPU_Ucd3lQDvnZ0QFu5Pl_A"
