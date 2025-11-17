@@ -5,7 +5,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
-app = Flask(")
+app = Flask('')
 
 @app.route('/')
 def home()
